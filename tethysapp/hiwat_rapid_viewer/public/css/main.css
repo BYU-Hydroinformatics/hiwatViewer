@@ -1,0 +1,34 @@
+#app-content-wrapper #app-content {
+    padding-bottom:0;
+    margin:0;
+    height: 100%;
+}
+#app-content-wrapper #app-content #app-actions{
+    display:none;
+}
+
+#inner-app-content {
+    padding:0;
+    margin:0;
+    height: 100%;
+}
+
+.wide-plot {
+    height: 100%;
+    min-width: 800px;
+}
+
+#map{
+    height:100%;
+    width:100%;
+    position:relative;
+}
+
+.legends{
+    position:absolute;
+    z-index: 9999;
+    border-radius: 3px;
+    right: 5px;
+    top: 10px;
+}
+
